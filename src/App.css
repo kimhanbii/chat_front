@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+button {
+  border-width: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: yellow;
+}
+
+button:hover{
+  background-color: whitesmoke;
+}
+
+.id{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  background-color: slategray;
+  width: 40%;
+  height: 20%;
+  border-radius: 5px;
+}
+
+.ct{
+  /* 중앙으로 옮기기 */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  /* 채팅박스 높이/넓이 */
+  width: 30vw;
+  height: 80vh;
+  text-align: center;
+  background-color: silver;
+  
+}
+
+.m{
+  text-align: left;
+  background-color: slategray;
+  height: 70vh;
+  overflow-y: auto;
+}
+
+.chat_box{
+  background-color: yellow;
+  margin: 10px;
+  padding: 5px;
+  padding-right: 20px;
+  padding-right: 20px;
+  width: fit-content;
+  border-radius: 12px;
+  word-break: break-all;
+  max-width: 30%;
+}
+
+.chat_box::after{
+  content : "";
+  border-width: 15px;
+  border-color: transparent;
+  border-style: solid;
+  border-top-color: yellow;
+  position: absolute;
+  display: block;
+  margin-left: 2px;
+}
+
+.chat_boxox{
+  position: relative;
+  display: flex;
+}
+
+.chat_box_center{
+  background-color: lightcyan;
+  margin: 10px;
+  padding: 5px;
+  width: fit-content;
+  border-radius: 12px;
+  word-break: break-all;
+  max-width: 50%;
+}
+
+
+
